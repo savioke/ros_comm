@@ -2,6 +2,14 @@
 Changelog for package rosnode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fixes for Python 3.12
+  With fixes by Jochen Sprickerhof.
+  Taken from
+  https://salsa.debian.org/science-team/ros-ros-comm/-/blob/b74ca5c2c868a084ab36e46d68f7775518ac4c58/debian/patches/0016-Fixes-for-Python-3.12.patch
+* Contributors: Matthias Klose
+
 1.17.0 (2024-09-13)
 -------------------
 * Enable rosrun & roslaunch to find rosnode script (`#2262 <https://github.com/ros/ros_comm/issues/2262>`_)

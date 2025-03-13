@@ -2,6 +2,16 @@
 Changelog for package xmlrpcpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Maintain constness of accessed XmlRpcValue struct
+  Return value should not change constness of this pointer!
+* Disable XmlRpcServer::enoughFreeFDs
+  The file descriptor hard limit was bumped resulting in each ROS node
+  allocating 8GB:
+  https://lists.debian.org/debian-devel/2024/06/msg00041.html
+* Contributors: Jochen Sprickerhof, Robert Haschke
+
 1.17.0 (2024-09-13)
 -------------------
 * Fix printing XmlRpcValue with GTest (`#2224 <https://github.com/ros/ros_comm/issues/2224>`_)

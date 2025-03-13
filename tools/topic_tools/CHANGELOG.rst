@@ -2,6 +2,14 @@
 Changelog for package topic_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fixes for Python 3.12
+  With fixes by Jochen Sprickerhof.
+  Taken from
+  https://salsa.debian.org/science-team/ros-ros-comm/-/blob/b74ca5c2c868a084ab36e46d68f7775518ac4c58/debian/patches/0016-Fixes-for-Python-3.12.patch
+* Contributors: Matthias Klose
+
 1.17.0 (2024-09-13)
 -------------------
 * Add wait_publisher_initialization option in topic_tools mux (`#2305 <https://github.com/ros/ros_comm/issues/2305>`_)

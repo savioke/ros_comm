@@ -2,6 +2,9 @@
 Changelog for package rospy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.17.0 (2024-09-13)
 -------------------
 * Stop using deprecated logger.warn (`#2191 <https://github.com/ros/ros_comm/issues/2191>`_)

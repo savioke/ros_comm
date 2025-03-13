@@ -2,6 +2,22 @@
 Changelog for package roslaunch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add missing newline in error message
+* roslaunch: return exit code of a required process (`#2082 <https://github.com/savioke/ros_comm/issues/2082>`_)
+  Resolves https://github.com/ros/ros_comm/issues/919
+* _eval(): better protection against use of hidden symbols
+  We just need to protect against symbols starting with double underscores.
+  Having double underscores anywhere else isn't a problem.
+* Fix symbol access in list comprehension
+* test access to global symbols in list comprehension
+* Fixes for Python 3.12
+  With fixes by Jochen Sprickerhof.
+  Taken from
+  https://salsa.debian.org/science-team/ros-ros-comm/-/blob/b74ca5c2c868a084ab36e46d68f7775518ac4c58/debian/patches/0016-Fixes-for-Python-3.12.patch
+* Contributors: Leroy Rügemer, Lucas Walter, Matthias Klose, Robert Haschke
+
 1.17.0 (2024-09-13)
 -------------------
 * Check if ignore_unset_args is set in xmlloader (`#2217 <https://github.com/ros/ros_comm/issues/2217>`_)

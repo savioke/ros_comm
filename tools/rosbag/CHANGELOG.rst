@@ -2,6 +2,11 @@
 Changelog for package rosbag
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update header for Boost 1.83
+* Contributors: Jochen Sprickerhof
+
 1.17.0 (2024-09-13)
 -------------------
 * Exposed record snapshot feature to command line. (`#2254 <https://github.com/ros/ros_comm/issues/2254>`_)
