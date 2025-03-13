@@ -2,8 +2,8 @@
 Changelog for package rosbag
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-03-13)
+--------------------
 * Update header for Boost 1.83
 * Contributors: Jochen Sprickerhof
 

@@ -2,8 +2,8 @@
 Changelog for package roslz4
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-03-13)
+--------------------
 * add missing python dependency
   this is implicitly pulled-in through the test depends on rosunit,
   but fails with https://github.com/ros-infrastructure/bloom/pull/649

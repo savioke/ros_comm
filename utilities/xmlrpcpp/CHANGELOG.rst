@@ -2,8 +2,8 @@
 Changelog for package xmlrpcpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-03-13)
+--------------------
 * Maintain constness of accessed XmlRpcValue struct
   Return value should not change constness of this pointer!
 * Disable XmlRpcServer::enoughFreeFDs

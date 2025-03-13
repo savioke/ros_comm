@@ -2,8 +2,8 @@
 Changelog for package roslaunch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-03-13)
+--------------------
 * Add missing newline in error message
 * roslaunch: return exit code of a required process (`#2082 <https://github.com/savioke/ros_comm/issues/2082>`_)
   Resolves https://github.com/ros/ros_comm/issues/919

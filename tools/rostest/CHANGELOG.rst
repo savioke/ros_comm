@@ -2,8 +2,8 @@
 Changelog for package rostest
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-03-13)
+--------------------
 * Fixes for Python 3.12
   With fixes by Jochen Sprickerhof.
   Taken from
